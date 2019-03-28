@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ARDistinguish_Example' do
+  pod 'ARDistinguish', :path => '../'
+
+  target 'ARDistinguish_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
