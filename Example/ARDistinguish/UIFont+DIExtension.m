@@ -10,4 +10,12 @@
 
 @implementation UIFont (DIExtension)
 
++ (UIFont *)fontWithTraits:(UIFontDescriptorSymbolicTraits)traits{
+    
+    UIFontDescriptor *descriptor = [[UIFontDescriptor alloc]init];
+    descriptor = [descriptor fontDescriptorWithSymbolicTraits:traits];
+    
+    return [UIFont fontWithDescriptor:descriptor size:0];
+}
+
 @end

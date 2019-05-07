@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042CBD292276226C001EDF68 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 042CBD282276226C001EDF68 /* Inceptionv3.mlmodel */; };
+		042CBD2C227628F6001EDF68 /* UIFont+DIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042CBD2B227628F6001EDF68 /* UIFont+DIExtension.m */; };
+		04B540072277912C00DC0CE0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B53FFD2277912C00DC0CE0 /* AFURLResponseSerialization.m */; };
+		04B540082277912C00DC0CE0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B53FFE2277912C00DC0CE0 /* AFHTTPSessionManager.m */; };
+		04B540092277912C00DC0CE0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B540002277912C00DC0CE0 /* AFURLSessionManager.m */; };
+		04B5400A2277912C00DC0CE0 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B540012277912C00DC0CE0 /* AFURLRequestSerialization.m */; };
+		04B5400B2277912C00DC0CE0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B540032277912C00DC0CE0 /* AFNetworkReachabilityManager.m */; };
+		04B5400C2277912C00DC0CE0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B540042277912C00DC0CE0 /* AFSecurityPolicy.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,12 +45,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042CBD282276226C001EDF68 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		042CBD2A227628F6001EDF68 /* UIFont+DIExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+DIExtension.h"; sourceTree = "<group>"; };
+		042CBD2B227628F6001EDF68 /* UIFont+DIExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DIExtension.m"; sourceTree = "<group>"; };
+		04B53FF92277912C00DC0CE0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		04B53FFA2277912C00DC0CE0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		04B53FFB2277912C00DC0CE0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		04B53FFC2277912C00DC0CE0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		04B53FFD2277912C00DC0CE0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		04B53FFE2277912C00DC0CE0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		04B53FFF2277912C00DC0CE0 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		04B540002277912C00DC0CE0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		04B540012277912C00DC0CE0 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		04B540022277912C00DC0CE0 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		04B540032277912C00DC0CE0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		04B540042277912C00DC0CE0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		04B540052277912C00DC0CE0 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		04B540062277912C00DC0CE0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		14B0D937ACB62657A6E86CB7 /* Pods-ARDistinguish_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDistinguish_Example.release.xcconfig"; path = "Target Support Files/Pods-ARDistinguish_Example/Pods-ARDistinguish_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33643FF28F9A073E14C8D195 /* Pods-ARDistinguish_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDistinguish_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARDistinguish_Example/Pods-ARDistinguish_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		35D25A46764CA35B05361C39 /* Pods-ARDistinguish_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDistinguish_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARDistinguish_Tests/Pods-ARDistinguish_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		39CEBD8AD575E97A97893EAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39CEBD8AD575E97A97893EAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51B129207CAD3B6CFD5DCE7D /* Pods-ARDistinguish_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDistinguish_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARDistinguish_Tests/Pods-ARDistinguish_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		53DDC0010B97D435EAB49EA2 /* ARDistinguish.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ARDistinguish.podspec; path = ../ARDistinguish.podspec; sourceTree = "<group>"; };
+		53DDC0010B97D435EAB49EA2 /* ARDistinguish.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARDistinguish.podspec; path = ../ARDistinguish.podspec; sourceTree = "<group>"; };
 		543E5D4E514200CB074E0B86 /* Pods_ARDistinguish_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDistinguish_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ARDistinguish_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDistinguish_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +88,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F9A6E1695D28C524810583C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6F9A6E1695D28C524810583C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		978EED15A3C015F74B5907A5 /* Pods_ARDistinguish_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDistinguish_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +120,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B53FF82277912C00DC0CE0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				04B53FF92277912C00DC0CE0 /* AFSecurityPolicy.h */,
+				04B53FFA2277912C00DC0CE0 /* AFNetworkReachabilityManager.h */,
+				04B53FFB2277912C00DC0CE0 /* AFURLSessionManager.h */,
+				04B53FFC2277912C00DC0CE0 /* AFURLRequestSerialization.h */,
+				04B53FFD2277912C00DC0CE0 /* AFURLResponseSerialization.m */,
+				04B53FFE2277912C00DC0CE0 /* AFHTTPSessionManager.m */,
+				04B53FFF2277912C00DC0CE0 /* AFURLResponseSerialization.h */,
+				04B540002277912C00DC0CE0 /* AFURLSessionManager.m */,
+				04B540012277912C00DC0CE0 /* AFURLRequestSerialization.m */,
+				04B540022277912C00DC0CE0 /* AFNetworking.h */,
+				04B540032277912C00DC0CE0 /* AFNetworkReachabilityManager.m */,
+				04B540042277912C00DC0CE0 /* AFSecurityPolicy.m */,
+				04B540052277912C00DC0CE0 /* AFCompatibilityMacros.h */,
+				04B540062277912C00DC0CE0 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +178,15 @@
 		6003F593195388D20070C39A /* Example for ARDistinguish */ = {
 			isa = PBXGroup;
 			children = (
+				04B53FF82277912C00DC0CE0 /* AFNetworking */,
 				6003F59C195388D20070C39A /* DIAppDelegate.h */,
 				6003F59D195388D20070C39A /* DIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				042CBD2A227628F6001EDF68 /* UIFont+DIExtension.h */,
+				042CBD2B227628F6001EDF68 /* UIFont+DIExtension.m */,
 				6003F5A5195388D20070C39A /* DIViewController.h */,
 				6003F5A6195388D20070C39A /* DIViewController.m */,
+				042CBD282276226C001EDF68 /* Inceptionv3.mlmodel */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +243,6 @@
 				35D25A46764CA35B05361C39 /* Pods-ARDistinguish_Tests.debug.xcconfig */,
 				51B129207CAD3B6CFD5DCE7D /* Pods-ARDistinguish_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +297,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = KuaShen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L55H5YD94T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -368,8 +420,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B5400A2277912C00DC0CE0 /* AFURLRequestSerialization.m in Sources */,
+				042CBD2C227628F6001EDF68 /* UIFont+DIExtension.m in Sources */,
+				04B5400B2277912C00DC0CE0 /* AFNetworkReachabilityManager.m in Sources */,
+				04B540092277912C00DC0CE0 /* AFURLSessionManager.m in Sources */,
 				6003F59E195388D20070C39A /* DIAppDelegate.m in Sources */,
+				042CBD292276226C001EDF68 /* Inceptionv3.mlmodel in Sources */,
 				6003F5A7195388D20070C39A /* DIViewController.m in Sources */,
+				04B540072277912C00DC0CE0 /* AFURLResponseSerialization.m in Sources */,
+				04B540082277912C00DC0CE0 /* AFHTTPSessionManager.m in Sources */,
+				04B5400C2277912C00DC0CE0 /* AFSecurityPolicy.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,11 +558,13 @@
 			baseConfigurationReference = 33643FF28F9A073E14C8D195 /* Pods-ARDistinguish_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARDistinguish/ARDistinguish-Prefix.pch";
 				INFOPLIST_FILE = "ARDistinguish/ARDistinguish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,11 +575,13 @@
 			baseConfigurationReference = 14B0D937ACB62657A6E86CB7 /* Pods-ARDistinguish_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARDistinguish/ARDistinguish-Prefix.pch";
 				INFOPLIST_FILE = "ARDistinguish/ARDistinguish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

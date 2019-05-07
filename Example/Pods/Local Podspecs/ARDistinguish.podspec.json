@@ -1,0 +1,22 @@
+{
+  "name": "ARDistinguish",
+  "version": "0.1.0",
+  "summary": "A short description of ARDistinguish.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KuaShen/ARDistinguish",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KuaShen": "shengjf154062261@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/KuaShen/ARDistinguish.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ARDistinguish/Classes/**/*"
+}

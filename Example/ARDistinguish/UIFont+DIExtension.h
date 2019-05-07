@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIFont (DIExtension)
 
++ (UIFont *)fontWithTraits:(UIFontDescriptorSymbolicTraits)traits;
+
 @end
 
 NS_ASSUME_NONNULL_END

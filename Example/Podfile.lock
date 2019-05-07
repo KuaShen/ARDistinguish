@@ -1,0 +1,16 @@
+PODS:
+  - ARDistinguish (0.1.0)
+
+DEPENDENCIES:
+  - ARDistinguish (from `../`)
+
+EXTERNAL SOURCES:
+  ARDistinguish:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARDistinguish: 7d99f12d1f5cf9fd3f4eedd945aa3b4541e9940b
+
+PODFILE CHECKSUM: 351026835f438ce8ccc1327555707404c939b6f8
+
+COCOAPODS: 1.6.1
